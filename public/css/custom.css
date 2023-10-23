@@ -1,0 +1,83 @@
+/*root page css start form here*/
+div.root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+label{
+    font-weight: bolder;
+}
+/*root page css end form here*/
+/*register page css start form here*/
+div.registerTitle {
+    display: flex;
+    align-items: center;
+}
+
+div.registerTitle span {
+    margin-left: auto;
+    font-weight: bolder;
+}
+form div.row div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+form div.row div.col-8.regisBtnDiv {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form div.row div.col-8.regisBtnDiv button{
+      font-weight: bolder;
+}
+ul.nav {display: flex;justify-content: center;}
+
+li.nav-item {
+}
+
+li.nav-item {
+    background: #26850f;
+    border-radius: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid greenyellow;
+}
+
+i {
+    font-size: 22px;
+    color: white;
+}
+i:hover{
+    color: #f909d7;
+}
+
+li.nav-item:hover {
+    background: #31f90d;
+}
+.row.socialRow {
+    align-items: center;
+}
+
+.row.socialRow div.srTitle {
+    text-align-last: end;
+}
+font{
+    color: red;
+    font-weight: bolder;
+}
+/*register page css start form here*/
+/*social content css start*/
+li.google{
+    display: none;
+}
+/*social content css end*/
+/*login css start*/
+.cardBodyHead {
+    display: flex;
+    align-items: center;
+}
+
+.cardBodyHead a {
+    margin-left: auto;
+}
+/*login css End*/
